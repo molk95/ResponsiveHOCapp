@@ -93,8 +93,10 @@ export default function ButtonAppBar() {
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
+              // onChange={(e)=>{e.target.value}}
             />
           </div>
+          <Button color="inherit">Sign up</Button>
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
